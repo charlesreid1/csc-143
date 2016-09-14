@@ -1,4 +1,4 @@
-public class Baz {
+public class Baz extends Foo {
     public void method1() {
         System.out.println("baz 1");
     }
