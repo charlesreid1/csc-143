@@ -17,6 +17,16 @@ Profiles for Chapter 9:
 
 ## Lecture Code
 
+Fly Classes (Inheritance):
+* Subfly and Superfly
+* Fly Driver
+* Gives a simple template for illustrating various inheritance techniques
+
+Foo Bar Baz (Polymorphism):
+* Illustrates polymorphism with multiple class types
+* Class diagram, several layers to inheritance
+* Overriding select methods for parent class, asking "what will this print"
+
 ## Worksheet Code
 
 
