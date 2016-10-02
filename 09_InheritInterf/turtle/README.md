@@ -5,18 +5,17 @@ Java documentation: [Using jar files: the basics](https://docs.oracle.com/javase
 On Linux/Mac:
 
 ```
-javac -cp '.:essential.jar' TurtleDriver.java
-java -cp '.:essential.jar' TurtleDriver
+javac -cp '.:essential.jar' SpiralTurtleDriver.java
+java -cp '.:essential.jar' SpiralTurtleDriver
 ```
 
 On Windows:
 
 ```
-javac -cp .;essential.jar mysource.java
-java -cp .;essential.jar mysource
+javac -cp .;essential.jar SpiralTurtleDriver.java
+java -cp .;essential.jar SpiralTurtleDriver
 ```
 
 In Eclipse:
 
-(???)
-
+(TBA)
