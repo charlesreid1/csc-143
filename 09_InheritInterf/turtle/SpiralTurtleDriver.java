@@ -6,7 +6,7 @@ public class SpiralTurtleDriver {
         SpiralTurtle tim = new SpiralTurtle();
         tim.drawSpiral();
 
-        SpiralTurtle tom = new SpiralTurtle(0.5);
+        SpiralTurtle tom = new SpiralTurtle(0.3);
         tom.drawSpiral();
 
     }
