@@ -2,7 +2,6 @@
 public class Polynomial {
     int degree;
     double[] coefficients;
-    double[] roots;
 
     public Polynomial(int degree, double[] coefficients) {
         // Polynomial coefficients are indexed by degree
