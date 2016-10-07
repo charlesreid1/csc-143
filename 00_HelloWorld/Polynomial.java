@@ -10,7 +10,7 @@ public class Polynomial {
         // coefficients[2] = coefficient of x^2
 
         if( coefficients.length != degree+1 ) { 
-            System.out.println("Uh oh. Coefficients length should be degree + 1.");
+            throw new RuntimeException("Uh oh. Coefficients length should be degree + 1."); 
         }
 
         this.degree = degree;
