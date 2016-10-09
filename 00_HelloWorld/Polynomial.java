@@ -10,7 +10,7 @@ public class Polynomial {
         // coefficients[2] = coefficient of x^2
 
         if( coefficients.length != degree+1 ) { 
-            throw new RuntimeException("Uh oh. Coefficients length should be degree + 1."); 
+            throw new IllegalArgumentException("Uh oh. Coefficients length should be degree + 1."); 
         }
 
         this.degree = degree;
@@ -28,7 +28,7 @@ public class Polynomial {
 
         // Add coeffs from p
         for( int d = 0; d <= this.degree; d++ ) {
-            r_coeffs[d] += this.coefficients[d];
+            r_coeffs[d] = this.coefficients[d];
         }
 
         // Add coeffs from q
@@ -43,7 +43,7 @@ public class Polynomial {
     public String toString() {
         String r = "";
         for( int d = this.degree; d >= 0; d-- ) {
-            r += this.coefficients[d];
+            r += Math.abs(this.coefficients[d]);
             if( d > 0 ) {
                 r += " x";
                 if( d > 1 ) {
@@ -51,7 +51,11 @@ public class Polynomial {
                 } else {
                     r += " ";
                 }
-                r += "+ ";
+                if( this.coefficients[d-1] < 0 ) {
+                    r += "- ";
+                } else {
+                    r += "+ ";
+                }
             } 
         }
         return r;
