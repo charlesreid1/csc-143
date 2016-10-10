@@ -20,5 +20,6 @@ public class ComparablePoints {
         Collections.sort(points);
         System.out.println("Points ArrayList:");
         System.out.println(points);
+
     }
 }
