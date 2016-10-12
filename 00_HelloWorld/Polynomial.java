@@ -1,52 +1,61 @@
+/*
+Polynomial class
 
+Polynomial coefficients are indexed by degree
+
+coefficients[0] = coefficient of x^0
+coefficients[1] = coefficient of x^1
+coefficients[2] = coefficient of x^2
+*/
 public class Polynomial {
-    int degree;
-    double[] coefficients;
+    private int degree;
+    private double[] coefficients;
 
-    public Polynomial(int degree, double[] coefficients) {
-        // Polynomial coefficients are indexed by degree
-        // coefficients[0] = coefficient of x^0
-        // coefficients[1] = coefficient of x^1
-        // coefficients[2] = coefficient of x^2
-
-        if( coefficients.length != degree+1 ) { 
-            throw new IllegalArgumentException("Uh oh. Coefficients length should be degree + 1."); 
-        }
-
-        this.degree = degree;
+    public Polynomial(double[] coefficients) {
+        // If we wanted to do error-checking, this is the place.
         this.coefficients = coefficients;
+        this.degree = coefficients.length+1;
     }
     
-    public Polynomial copy() {
-        // deep copy
-        return this;
+    /* Constructor to make a new Polynomial from an old one */
+    public Polynomial( Polynomial p ) {
+        this.degree = p.degree;
+
+        // Note: we can't just say this.coefficients = p.coefficients, 
+        // b/c then they would point to the same array in memory 
+        // (that would be a shallow copy)
+        this.coefficients = new double[len];
+        for(int i=0; i<p.coefficients.length; i++){
+            newcoeff[i] = p.coefficients[i];
+        }
     }
     
-    pubilc Polynomial add(int x) { 
-       // copy this,
-        // add x to last element of coeffs array
+    pubilc Polynomial add(int a) { 
+        Polynomial result = new Polynomial(this);
+        // add x to the degree 0 term
+        result.coeffs[0] += a;
+        return result;
     }
 
     public Polynomial add(Polynomial q) { 
         // Add two polynomials:
         //   r = p + q
-
-        // Result polynomial will have degree maxd 
-        int maxd = Math.max(this.degree,q.degree);
-        int r_degree = maxd;
-        double[] r_coeffs = new double[maxd+1];
-
+        
+        if( q.degree > this.degree ) {
+            Polynomial r = new Polynomial(q);
+        } else {
+            Polynomial r = new Polynomial(this);
+        
         // Add coeffs from p
         for( int d = 0; d <= this.degree; d++ ) {
-            r_coeffs[d] = this.coefficients[d];
+            r.coefficients[d] = this.coefficients[d];
         }
 
         // Add coeffs from q
         for( int d = 0; d <= q.degree; d++ ) { 
-            r_coeffs[d] += q.coefficients[d];
+            r.coefficients[d] += q.coefficients[d];
         }
 
-        Polynomial r = new Polynomial(r_degree,r_coeffs);
         return r;
     }
 
