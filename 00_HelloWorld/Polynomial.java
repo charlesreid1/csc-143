@@ -16,6 +16,11 @@ public class Polynomial {
         this.degree = degree;
         this.coefficients = coefficients;
     }
+    
+    pubilc Polynomial add(int x) { 
+       // copy this,
+        // add x to last element of coeffs array
+    }
 
     public Polynomial add(Polynomial q) { 
         // Add two polynomials:
