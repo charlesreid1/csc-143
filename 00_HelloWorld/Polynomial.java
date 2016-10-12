@@ -17,6 +17,11 @@ public class Polynomial {
         this.coefficients = coefficients;
     }
     
+    public Polynomial copy() {
+        // deep copy
+        return this;
+    }
+    
     pubilc Polynomial add(int x) { 
        // copy this,
         // add x to last element of coeffs array
