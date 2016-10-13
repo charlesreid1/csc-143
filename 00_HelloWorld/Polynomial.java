@@ -58,7 +58,7 @@ public class Polynomial {
             r = new Polynomial(q);
 
             // Add coeffs from p
-            for( int d = 0; d < this.degree; d++ ) {
+            for( int d = 0; d < this.coefficients.length; d++ ) {
                 r.coefficients[d] = this.coefficients[d];
             }
 
@@ -67,8 +67,7 @@ public class Polynomial {
             r = new Polynomial(this);
 
             // Add coeffs from q
-            System.out.println(q);
-            for( int d = 0; d < q.degree; d++ ) { 
+            for( int d = 0; d < q.coefficients.length; d++ ) { 
                 r.coefficients[d] += q.coefficients[d];
             }
 
@@ -77,14 +76,38 @@ public class Polynomial {
         return r;
     }
 
+    public double evaluate( double x0 ) { 
+        double result = 0;
+        for( int i=0; i<this.coefficients.length; i++) {
+            result += this.coefficients[i]*Math.pow(x0,i);
+        }
+        return result;
+    }
+
     public String toString() { 
         String r = "";
         for( int d = this.coefficients.length-1; d >= 0; d-- ) {
-            r += Math.abs(this.coefficients[d]);
-            if( d > 0 ) {
+
+            double val = Math.abs(this.coefficients[d]);
+            boolean coefficient_of_1, coefficient_of_0, degree_nonzero, degree_gt_1;
+
+            coefficient_of_1 = (Math.abs(val-1.0)<0.0001);
+            coefficient_of_0 = (Math.abs(val)<0.0001);
+            degree_nonzero = (d > 0);
+            degree_gt_1 = (d > 1);
+
+            if( coefficient_of_0 || coefficient_of_1 ) {
+                r += "";
+            } else {
+                r += Math.abs(this.coefficients[d]);
+            } 
+
+            if( degree_nonzero && !coefficient_of_0 ) { 
                 r += " x";
-                if( d > 1 ) {
+                if( degree_gt_1 ) { 
                     r += "^" + d + " ";
+                } else if( coefficient_of_0 ) { 
+                    r += "";
                 } else {
                     r += " ";
                 }
