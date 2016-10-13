@@ -10,12 +10,12 @@ import essential.*;
 public class SpiralTurtle extends Turtle { 
     private double a; // Spiral compactness parameter
 
-    /** Constructor taking a as a parameter */
+    /** Constructor that takes a as a parameter */
     public SpiralTurtle(double a) { 
         this.a = a;
     }
 
-    /** Constructor taking no parameter */
+    /** Constructor that takes no parameters */
     public SpiralTurtle() { 
         this.a = 1.0;
     }
