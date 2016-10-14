@@ -31,7 +31,6 @@ public class PrisonersDilemmaGame {
 
     public void runGame() { 
         // Run all rounds
-        this.isRunning = false;
     }
 
     public void runOneRound() {
