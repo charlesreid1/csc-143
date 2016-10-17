@@ -6,7 +6,7 @@ import java.util.*;
 
 public class WordCountMap {
     // minimum number of occurrences needed to be printed
-    public static final int OCCURRENCES = 1000;
+    public static final int OCCURRENCES = 300;
     
     public static void main(String[] args) 
             throws FileNotFoundException {
@@ -16,7 +16,7 @@ public class WordCountMap {
         System.out.println();
         
         // read the book into a map
-        Scanner in = new Scanner(new File("ulysses.txt"));
+        Scanner in = new Scanner(new File("C:\\Users\\windoze\\Desktop\\ulysses.txt"));
         Map<String, Integer> wordCountMap = getCountMap(in);
         
         Set<String> boringWords = getBoringWords();
@@ -54,11 +54,6 @@ public class WordCountMap {
     public static Set<String> getBoringWords() { 
         Set<String> boringWords = new HashSet<String>();
         boringWords.add("a");
-        boringWords.add("and");
-        boringWords.add("the");
-        boringWords.add("in");
-        boringWords.add("of");
-        boringWords.add("to");
         return boringWords;
     }
 }
