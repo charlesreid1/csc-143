@@ -89,13 +89,20 @@ public class SSD {
         return s;
     }
 
-    /** Compute the distance from school this_school to every other school in the public schools data set.
-     *  Store it in a map - key is name of other school, value is double distance.
-     *  We don't save these - not worth the memory. */
+    /** Compute the distance from school this_school to every other school in the public schools data set. 
+     * This is implemented without filtering and with filtering. 
+     * Calling it without filtering calls the method with filtering. 
+     * Store distances in a map - key is name of other school, value is double distance.
+     * We don't save these - not worth the memory. */
     public TreeMap<String,Double> getDistanceMap(String this_school_name) throws FileNotFoundException { 
+        return getDistanceMap(this_school_name,"");
+    }
+
+    public TreeMap<String,Double> getDistanceMap(String this_school_name, String filter) throws FileNotFoundException { 
         loadData();
 
         // Allow for fuzzy search
+        // ('Chief Sealth' will match 'Chief Sealth High School')
         String this_school_key = "";
         for( String key : allSchools.keySet() ) {
             if(key.contains(this_school_name)) {
@@ -110,14 +117,28 @@ public class SSD {
         // Map to store distances:
         TreeMap<String,Double> distances = new TreeMap<String,Double>();
 
-        // Finding distance from this_school to all other schools
         School this_school = allSchools.get(this_school_key);
+
+        // Find distance from this_school to all other schools
+        //
+        // Filtering options:
+        // "" means no filter
+        // "elementary" means filter school type to elementary
+        //
         for( School other_school : allSchools.values() ) { 
             String other_school_key = other_school.getName();
             if(other_school_key.equals(this_school_key)) { 
                 // skip self
                 continue;
             }
+            if( filter.equals("elementary") ) {
+                if( !(other_school.getType().toLowerCase().contains("elementary")) ) {
+                    // filter set to elementary schools,
+                    // so filter out non-elementary schools
+                    continue;
+                }
+            }
+
             double distance = this_school.getDistance( other_school );
             distances.put( other_school_key, distance );
         }

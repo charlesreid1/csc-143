@@ -1,6 +1,13 @@
 import java.util.*; 
 import java.io.*;
 
+/**
+ * Worksheet 4: Seattle Public Schools Data
+ *
+ * This code parses data about Seattle public schools 
+ * provided by the City of Seattle to filter and sort
+ * the data using Collections objects.
+ */
 public class Driver {
 
     public static void main(String[] args) throws FileNotFoundException { 
@@ -64,9 +71,10 @@ public class Driver {
         }
     }
 
-    /** Problem 4: What two schools are the furthest distance apart from each other? How far apart? */ 
+    /** Problem 4: What two elementary schools are the furthest distance apart from each other? How far apart? */ 
     public static void problem4(SSD school_data) throws FileNotFoundException { 
         // Use a cumulative algorithm.
+        //
         // Store the (current) two furthest schools in furthest_apart, and their distance in furthest_distance.
         String[] furthest_apart = new String[2];
         double furthest_distance = 0.0;
@@ -74,7 +82,7 @@ public class Driver {
         for( String sch : school_data.getSchoolsList() ) {
 
             // Store the distance map and the reversed distance map
-            TreeMap<String,Double> distance_map = school_data.getDistanceMap(sch);
+            TreeMap<String,Double> distance_map = school_data.getDistanceMap(sch,"elementary");
             TreeMap<Double,String> reverse_distance_map = MapOperations.reverseDistanceMap(distance_map);
 
             // Get the furthest distance
@@ -88,6 +96,7 @@ public class Driver {
         }
 
         System.out.println(furthest_apart[0] + " and " + furthest_apart[1] + " are " + furthest_distance);
+        System.out.println(
     }
 
 }
