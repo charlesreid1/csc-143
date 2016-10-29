@@ -11,7 +11,7 @@ import java.io.*;
 public class Driver {
 
     public static void main(String[] args) throws FileNotFoundException { 
-        SSD s = new SSD("school_data.csv");
+        SeattleSchoolsData s = new SeattleSchoolsData("school_data.csv");
         problem1(s);
         problem2(s);
         problem3(s);
@@ -19,7 +19,7 @@ public class Driver {
     }
 
     /** Problem 1: Print schools and phone numbers, in order of descending phone number. */
-    public static void problem1(SSD school_data) throws FileNotFoundException { 
+    public static void problem1(SeattleSchoolsData school_data) throws FileNotFoundException { 
         System.out.println("Problem 1:");
 
         // Get the phone book, and reverse it
@@ -37,7 +37,7 @@ public class Driver {
     }
 
     /** Problem 2: Print 5 schools closest to Chief Sealth High School. */ 
-    public static void problem2(SSD school_data) throws FileNotFoundException { 
+    public static void problem2(SeattleSchoolsData school_data) throws FileNotFoundException { 
         System.out.println("Problem 2:");
 
         // Get the distance map, and reverse it
@@ -58,7 +58,7 @@ public class Driver {
     }
 
     /** Problem 3: What school is located on 28th Ave NW */ 
-    public static void problem3(SSD school_data) throws FileNotFoundException { 
+    public static void problem3(SeattleSchoolsData school_data) throws FileNotFoundException { 
         System.out.println("Problem 3:");
         String target = "28th Ave NW";
         TreeMap<String,String> addressBook = school_data.getAddressBook();
@@ -77,7 +77,7 @@ public class Driver {
     }
 
     /** Problem 4: What two elementary schools are the furthest distance apart from each other? How far apart? */ 
-    public static void problem4(SSD school_data) throws FileNotFoundException { 
+    public static void problem4(SeattleSchoolsData school_data) throws FileNotFoundException { 
         System.out.println("Problem 4:");
         // Use a cumulative algorithm.
         //

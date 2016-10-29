@@ -1,7 +1,15 @@
 import java.util.*; 
 import java.io.*;
 
-public class SSD {
+/**
+ * SeattleSchoolsData class:
+ * 
+ * This class provides an interface for SeattleSchoolsData
+ * and the file containing public school data. 
+ * This file owns the file parsing process.
+ * If the file format changes, this is the class you change.
+ */
+public class SeattleSchoolsData {
 
     private String filename;
     private boolean isLoaded;
@@ -10,7 +18,7 @@ public class SSD {
     private TreeMap<String,String> phoneBook;
 
     /** Constructor: takes the filename of the file containing the public schools data */
-    public SSD(String filename) {
+    public SeattleSchoolsData(String filename) {
         this.filename = filename;
         isLoaded = false;
     }

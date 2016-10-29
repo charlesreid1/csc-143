@@ -1,24 +1,33 @@
+/**
+ * School class:
+ * 
+ * This class stores information about a public school.
+ * The only information we are using is name, type, address, and phone number.
+ * If we want to store more information, we can add more fields.
+ * If we want to adjust how the file is parsed, edit SeattleSchoolsData class.
+ */
 public class School {
     private double[] latlong; // latitude, longitude 
     private String[] info; 
 
-    // Set the index value for different info: 
-    // name/address/type/phone (type refers to elementary, middle, etc.)
-    // 
-    // This scheme works because School 
-    // is only constructed by one class,
-    // which knows exactly what order 
-    // to put info in.
-    //
-    // If we wanted to be more general,
-    // we would parse column names from
-    // the school_data.csv file, and allow
-    // the user to pass a column name to get 
-    // values. For example,
-    //
-    // School s = new School("Chief Sealth");
-    // String s_address = s.get('address');
-    // 
+    /*
+    Set the index value for different info: 
+    name/address/type/phone (type refers to elementary, middle, etc.)
+    
+    This scheme works because School 
+    is only constructed by one class,
+    which knows exactly what order 
+    to put info in.
+    
+    If we wanted to be more general,
+    we would parse column names from
+    the school_data.csv file, and allow
+    the user to pass a column name to get 
+    values. For example,
+    
+    School s = new School("Chief Sealth");
+    String s_address = s.get('address');
+    */
     private int name_ix  = 0;
     private int type_ix  = 1;
     private int addr_ix  = 2;
