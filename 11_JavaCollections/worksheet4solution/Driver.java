@@ -12,14 +12,15 @@ public class Driver {
 
     public static void main(String[] args) throws FileNotFoundException { 
         SSD s = new SSD("school_data.csv");
-        //problem1(s);
-        //problem2(s);
-        //problem3(s);
+        problem1(s);
+        problem2(s);
+        problem3(s);
         problem4(s);
     }
 
     /** Problem 1: Print schools and phone numbers, in order of descending phone number. */
     public static void problem1(SSD school_data) throws FileNotFoundException { 
+        System.out.println("Problem 1:");
 
         // Get the phone book, and reverse it
         TreeMap<String,String> phone = school_data.getPhoneBook();
@@ -29,23 +30,26 @@ public class Driver {
         for( String ph : reverse_phone.keySet() ) {
             String sch = reverse_phone.get(ph);
             if(!ph.isEmpty()) {
-                System.out.println(sch + "\t\t\t" + ph); 
+                //System.out.println(sch + "\t\t\t" + ph); 
+                System.out.printf("%23s    %20s \n",sch,ph);
             }
         }
     }
 
     /** Problem 2: Print 5 schools closest to Chief Sealth High School. */ 
     public static void problem2(SSD school_data) throws FileNotFoundException { 
+        System.out.println("Problem 2:");
 
         // Get the distance map, and reverse it
         TreeMap<String,Double> sealth = school_data.getDistanceMap("Chief Sealth");
         TreeMap<Double,String> reverse_sealth = MapOperations.reverseDistanceMap(sealth);
 
         // Print the first 5 schools in the reversed list 
+        System.out.println("5 schools closest to Chief Sealth are:");
         int i=0;
         for( Double d : reverse_sealth.keySet() ) {
             String sch = reverse_sealth.get(d);
-            System.out.println(sch + " : " + d);
+            System.out.printf("%20s : %.3f miles\n", sch, d);
             i++;
             if(i>5) { 
                 break;
@@ -55,6 +59,7 @@ public class Driver {
 
     /** Problem 3: What school is located on 28th Ave NW */ 
     public static void problem3(SSD school_data) throws FileNotFoundException { 
+        System.out.println("Problem 3:");
         String target = "28th Ave NW";
         TreeMap<String,String> addressBook = school_data.getAddressBook();
         String the_right_school = "";
@@ -73,6 +78,7 @@ public class Driver {
 
     /** Problem 4: What two elementary schools are the furthest distance apart from each other? How far apart? */ 
     public static void problem4(SSD school_data) throws FileNotFoundException { 
+        System.out.println("Problem 4:");
         // Use a cumulative algorithm.
         //
         // Store the (current) two furthest schools in furthest_apart, and their distance in furthest_distance.
@@ -95,8 +101,7 @@ public class Driver {
             }
         }
 
-        System.out.println(furthest_apart[0] + " and " + furthest_apart[1] + " are " + furthest_distance);
-        System.out.println(
+        System.out.printf("%s and %s are %.2f miles apart.\n", furthest_apart[0], furthest_apart[1], furthest_distance);
     }
 
 }
