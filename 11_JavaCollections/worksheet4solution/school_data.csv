@@ -1,0 +1,117 @@
+OBJECTID,LATITUDE,LONGITUDE,NAME,GRADE,TYPE,ADDRESS,CITY,ZIP,PHONE,WEBSITE,SCHOOL
+1,47.57404525600003, -122.30301448899996,Kimball,K - 5,Elementary,3200 23rd Ave. S,Seattle,98144,(206) 252-7280,http://kimballes.seattleschools.org/,Kimball
+2,47.57298061400007, -122.39027968499994,Madison,6 - 8,Middle School,3429 45th Ave. SW,Seattle,98116,(206) 252-9200,http://madisonms.seattleschools.org/,Madison
+3,47.654635461000055, -122.34912373599997,B.F. Day,K - 5,Elementary,3921 Linden Ave N,Seattle,98103,(206) 252-6010,http://dayes.seattleschools.org/,B.F. Day
+4,47.55477872700004, -122.27595641799996,Orca K-8,K - 8,Option Elementary,5215 46th Ave. S,Seattle,98118,(206) 252-6900,http://orcak8.seattleschools.org/,Orca
+5,47.66071745100004, -122.33576416199998,,,Closed_Leased_Land,4416 Wallingford Ave. N,Seattle,98103,,,Interlake
+6,47.623243556000034, -122.34994749399999,,,Admin,401 5th Ave. N,Seattle,98109,,,Memorial Stadium
+7,47.54174320700008, -122.27691175999996,Martin Luther King Jr.,K - 5,Elementary,6725 45th Ave. S,Seattle,98118,(206) 252-6770,http://kinges.seattleschools.org/,Martin Luther King Jr.
+8,47.61337342100006, -122.30928639899997,Seattle World School,6 - 12,Option,1700 E Union St.,Seattle,98122,(206)252-2200,http://sws.seattleschools.org/,T.T. Minor
+9,47.50970036100006, -122.37758781299999,Arbor Heights,K - 5,Elementary,3701 SW 104th St.,Seattle,98146,(206)252-9250,http://arborheightses.seattleschools.org/,Arbor Heights
+10,47.552372063000064, -122.31391191199998,Cleveland STEM,9 - 12,Option High School,5511 15th Ave. S,Seattle,98108,(206) 252-7800,http://clevelandhs.seattleschools.org/,Cleveland
+11,47.56106125400004, -122.29249415699996,,,Closed_Leased,3100 S Alaska St.,Seattle,98108,,,Columbia Annex
+12,47.54861953500006, -122.36214094199994,Louisa Boren STEM K-8,K - 8,Option Elementary,5950 Delridge Way SW,Seattle,98106,(206)252-8450,http://k5stem.seattleschools.org/,Boren
+13,47.518052917000034, -122.37055804399995,Roxhill,K - 5,Elementary,9430 30th Ave. SW,Seattle,98126,(206) 252-9570,http://roxhilles.seattleschools.org/,Roxhill
+14,47.72569939400006, -122.33683812599998,Ingraham Int'l,9 - 12,High School,1819 N 135th St.,Seattle,98133,(206) 252-3880,http://ingrahamhs.seattleschools.org/,Ingraham Int'l
+15,47.69823172200006, -122.32125786999995,Olympic View,K - 5,Elementary,504 NE 95th St.,Seattle,98115,(206) 252-5500,http://olympicviewes.seattleschools.org/,Olympic View
+16,47.72463110900003, -122.35314866899995,Broadview-Thomson,K - 8,Elementary,13052 Greenwood Ave. N,Seattle,98133,(206) 252-4080,http://broadviewk8.seattleschools.org/,Broadview-Thomson
+17,47.668275608000044, -122.32659538599995,McDonald Int'l,K - 5,Option Elementary,144 NE 54th St.,Seattle,98105,(206)252-2900,http://mcdonaldes.seattleschools.org/,McDonald Int'l
+18,47.528632051000045, -122.36615479899996,Chief Sealth Int'l,9 - 12,High School,2600 SW Thistle St.,Seattle,98126,(206) 252-8550,http://chiefsealthhs.seattleschools.org/,Chief Sealth Int'l
+19,47.57714172500005, -122.40782717399998,Alki,K - 5,Elementary,3010 59th Ave SW,Seattle,98116,(206) 252-9050,http://alkies.seattleschools.org/,Alki
+20,47.56590518500008, -122.28338622399997,Hawthorne,K - 5,Elementary,4100 39th Ave. S,Seattle,98118,(206) 252-7210,http://hawthornees.seattleschools.org/,Hawthorne
+21,47.685032902000046, -122.28266756199997,Thornton Creek,K - 5,Option Elementary,7711 43rd Ave. NE,Seattle,98115,(206) 252-5300,http://thorntoncreek.org/,Thornton Creek
+22,47.52517749500004, -122.34827728699997,Highland Park,K - 5,Elementary,1012 SW Trenton St.,Seattle,98106,(206) 252-8240,http://highlandparkes.seattleschools.org/,Highland Park
+23,47.69506968400003, -122.33744365999996,,,Closed_BEXIV,1330 N 90th St.,Seattle,98103,,,Wilson-Pacific Middle School
+24,47.676610769000035, -122.37488866899997,Ballard,9 - 12,High School,1418 NW 65th St.,Seattle,98117,(206) 252-1000,http://ballardhs.seattleschools.org/,Ballard
+25,47.673651549000056, -122.26293322199996,Sand Point,K - 5,Elementary,6208 60th Ave. NE,Seattle,98115,(206) 252-4640,http://sandpointes.seattleschools.org/,Sand Point
+26,47.673632146000045, -122.39151960199996,Adams,K - 5,Elementary,6110 28th Ave NW,Seattle,98107,(206) 252-1300,http://adamses.seattleschools.org/,Adams
+27,47.657528256000035, -122.32405186999995,John Stanford Int'l,K - 5,Option Elementary,4057 5th Ave. NE,Seattle,98105,(206) 252-6080,http://stanfordes.seattleschools.org/,John Stanford Int'l
+28,47.64060611900004, -122.39262357299998,,,Closed_Vacant,2418 28th Ave. W.,Seattle,98199,,,Magnolia
+29,47.63682628500004, -122.35895523099998,McClure,6 - 8,Middle School,1915 1st Ave. W,Seattle,98119,(206) 252-1900,http://mcclurems.seattleschools.org/,McClure
+30,47.52190617200006, -122.38787193299999,,,Closed_Leased_Land,9131 California Ave. SW,Seattle,98136,,,Fauntleroy
+31,47.60120053400004, -122.31548472099996,Bailey Gatzert,K - 5,Elementary,1301 E Yesler Way,Seattle,98122,(206) 252-2810,http://gatzertes.seattleschools.org/,Bailey Gatzert
+32,47.523610903000076, -122.32469058399994,Concord Int'l,K - 5,Elementary,723 S Concord St.,Seattle,98108,(206) 252-8100,http://concordes.seattleschools.org/,Concord Int'l
+33,47.63145623100007, -122.30786488499996,Stevens,K - 5,Elementary,1242 18th Ave. E,Seattle,98112,(206) 252-3400,http://stevenses.seattleschools.org/,Stevens
+34,47.62207926200006, -122.35398171899999,Center School,9 - 12,Option High School,305 Harrison St.,Seattle,98109,(206) 252-9850,http://centerhs.seattleschools.org/,Center School
+35,47.646275066000044, -122.35861918599994,Cascade,K - 12,Service School,2919 1st Ave. W,Seattle,98119,(206)743-3900,http://cppp.seattleschools.org/home,Cascade
+36,47.72368616400007, -122.30675545399998,,,Closed_BEXIV,13018 20th Ave. NE,Seattle,98125,,,Olympic Hills
+37,47.67769909200007, -122.39635868399995,,,Closed_Leased,3014 NW 67th St.,Seattle,98117,,,Webster
+38,47.552573202000076, -122.38019123299995,Fairmount Park,K - 5,Elementary,3800 SW Findlay St.,Seattle,98126,(206) 252-9300,http://fairmountparkes.seattleschools.org/,Fairmount Park
+39,47.640632638000056, -122.30428420299995,Montlake,K - 5,Elementary,2409 22nd Ave. E.,Seattle,98112,(206) 252-3300,http://montlakees.seattleschools.org/,Montlake
+40,47.686357067000074, -122.34230487199994,Bagley,K - 5,Elementary,7821 Stone Ave. N,Seattle,98103,(206) 252-5110,http://bagleyes.seattleschools.org/home,Bagley
+41,47.54176186800004, -122.37349268699995,West Seattle Elem,K - 5,Elementary,6760 34th Ave. SW,Seattle,98126,(206) 252-9450,http://westseattlees.seattleschools.org/,West Seattle Elem
+42,47.53073934400004, -122.28490600899994,Wing Luke,K - 5,Elementary,3701 S Kenyon St.,Seattle,98118,(206) 252-7630,http://lukees.seattleschools.org/,Wing Luke
+43,47.687253895000026, -122.35996029999995,Greenwood,K - 5,Elementary,144 NW 80th St.,Seattle,98117,(206) 252-1400,http://greenwoodes.seattleschools.org/,Greenwood
+44,47.632898485000055, -122.35171657999996,Hay,K - 5,Elementary,201 Garfield St.,Seattle,98109,(206) 252-2100,http://hayes.seattleschools.org/,John Hay
+45,47.58546920600003, -122.31510488899994,Beacon Hill Int'l,K - 5,Elementary,2025 14th Ave. S,Seattle,98144,(206) 252-2700,http://beaconhilles.seattleschools.org/,Beacon Hill Int'l
+46,47.54632186200007, -122.28198038199997,Aki Kurose,6 - 8,Middle School,3928 S Graham St,Seattle,98118,(206) 252-7700,http://kurosems.seattleschools.org/,Aki Kurose
+47,47.70742643500006, -122.28463372999994,John Rogers,K - 5,Elementary,4030 NE 109th St.,Seattle,98125,(206) 252-4320,http://rogerses.seattleschools.org/,John Rogers
+48,47.54025088700007, -122.38849821899998,Gatewood,K - 5,Elementary,4320 SW Myrtle St.,Seattle,98136,(206) 252-9400,http://gatewoodes.seattleschools.org/,Gatewood
+49,47.52407076500003, -122.26585898299999,Rainier Beach,9 - 12,High School,8815 Seward Park Ave S,Seattle,98118,(206) 252-6350,http://rainierbeachhs.seattleschools.org,Rainier Beach
+50,47.69503866100007, -122.340958264,,,Closed_BEXIV,1330 N 90th St.,Seattle,98103,,,Wilson-Pacific Elem
+51,47.52915163000006, -122.28903550799998,Van Asselt,K - 5,Elementary,8311 Beacon Ave. S,Seattle,98118,(206) 252-7500,http://vanasseltes.seattleschools.org/,Van Asselt
+52,47.57677968300004, -122.38459096799994,West Seattle HS,9 - 12,High School,3000 California Ave. SW,Seattle,98116,(206) 252-8800,http://westseattlehs.seattleschools.org/,West Seattle HS
+53,47.498863322000034, -122.26317206499999,Rainier View,K - 5,Elementary,11650 Beacon Ave. S,Seattle,98178,(206) 252-6700,http://rainierviewes.seattleschools.org/,Rainier View
+54,47.62160315600005, -122.30524467599997,,,Closed,301 21st Ave. E,Seattle,98112,(206) 252-2200,,Meany
+55,47.56413274400006, -122.31208319299998,Mercer Int'l,6 - 8,Middle School,1600 S Columbian Way,Seattle,98108,(206) 252-8000,http://mercerms.seattleschools.org/,Mercer Int'l
+56,47.677231394000046, -122.31280953499999,Roosevelt,9 - 12,High School,1410 NE 66th St.,Seattle,98115,(206) 252-4810,http://roosevelths.seattleschools.org/,Roosevelt
+57,47.57268907500003, -122.39673079799996,,,Closed,5000 SW Spokane St.,Seattle,98116,(206) 252-9700,http://schmitzparkes.seattleschools.org/,Schmitz Park
+58,47.58050168800003, -122.33031977099995,,,Admin,2445 3rd Ave. S,Seattle,98134,,,John Stanford Center
+59,47.70597281600004, -122.36112944499996,Viewlands,K - 5,Elementary,10525 3rd Ave. NW,Seattle,98177,(206) 252-4400,http://viewlandses.seattleschools.org/,Viewlands
+60,47.57324134800007, -122.29057986199996,John Muir,K - 5,Elementary,3301 S Horton St.,Seattle,98144,(206) 252-7400,http://muires.seattleschools.org/,John Muir
+61,47.57949540100003, -122.38723454599995,Lafayette,K - 5,Elementary,2645 California Ave. SW,Seattle,98116,(206) 252-9500,http://lafayettees.seattleschools.org/,Lafayette
+62,47.51482046700005, -122.25863614599996,Emerson,K - 5,Elementary,9709 60th Ave. S,Seattle,98118,(206) 252-7100,http://emersones.seattleschools.org/,Emerson
+63,47.61223677600003, -122.29086890499997,Madrona K-8,K - 8,Elementary,1121 33rd Ave.,Seattle,98122,(206) 252-3100,http://madronak8.seattleschools.org/,Madrona
+64,47.67059930500005, -122.36224678099995,West Woodland,K - 5,Elementary,5601 4th Ave. NW,Seattle,98107,(206) 252-1600,http://www.westwoodlandes.seattleschools.org/,West Woodland
+65,47.713430232000064, -122.31465833899995,Hazel Wolf K-8,K - 8,Option Elementary,11530 12th Ave. NE,Seattle,98125,,http://hazelwolfk8.seattleschools.org/,Pinehurst 
+66,47.676297412000054, -122.38051207599995,Salmon Bay K-8,K - 8,Option Elementary,1810 NW 65th St.,Seattle,98117,(206) 252-1720,http://salmonbayk8.seattleschools.org/,Salmon Bay
+67,47.70994486300003, -122.29300902499995,Jane Addams,6 - 8,Middle School,11051 34th Ave. NE,Seattle,98125,(206) 252-4500,http://addamsms.seattleschools.org/,Jane Addams
+68,47.525264578000076, -122.27091962699996,South Lake,9 - 12,High School,8601 Rainier Ave. S,Seattle,98118,(206) 252-6600,http://southlakehs.seattleschools.org/,South Lake
+69,47.55812571300004, -122.31889888399996,Maple,K - 5,Elementary,4925 Corson Ave. S,Seattle,98108,(206) 252-8310,http://maplees.seattleschools.org/,Maple
+70,47.53283766000004, -122.37492741899996,,,Closed_Leased,7740 34th Ave. SW,Seattle,98126,,,Hughes
+71,47.64225735800005, -122.39926242999996,Catharine Blaine K-8,K - 8,Elementary,2550 34th Ave. W,Seattle,98199,(206) 252-1920,http://blainek8.seattleschools.org/,Catharine Blaine
+72,47.63181757800004, -122.36384318499995,,,Closed_Leased_Land,1401 5th Ave. W,Seattle,98119,,,West Queen Anne
+73,47.60210319200007, -122.29181362599996,Leschi,K - 5,Elementary,135 32nd Ave.,Seattle,98122,(206) 252-2950,http://leschies.seattleschools.org/,Leschi
+74,47.57588767200008, -122.29364639899995,Franklin,9 - 12,High School,3013 S Mount Baker Blvd.,Seattle,98144,(206) 252-6150,http://franklinhs.seattleschools.org/,Franklin
+75,47.69675145200006, -122.37760192299999,Whitman,6 - 8,Middle School,9201 15th Ave. NW,Seattle,98117,(206) 252-1200,http://whitmanms.seattleschools.org/,Whitman
+76,47.662198035000074, -122.27796307499995,Laurelhurst,K - 5,Elementary,4530 46th Ave. NE,Seattle,98105,(206) 252-5400,http://laurelhurstes.seattleschools.org/,Laurelhurst
+77,47.68643545100008, -122.38905047699996,,,,2511 NW 80th St.,Seattle,98117,(206) 252-1500,,Loyal Heights
+78,47.64051598800006, -122.36559910799997,Coe,K - 5,Elementary,2424 7th Ave. W,Seattle,98119,(206) 252-2000,http://coees.seattleschools.org/,Frantz Coe
+79,47.70243647500007, -122.34325940399998,,,Closed_Leased_Land,10040 Aurora Ave. N,Seattle,98133,,,Oak Lake
+80,47.55226236000004, -122.29628697999999,Dearborn Park Int'l,K - 5,Elementary,2820 S Orcas St.,Seattle,98108,(206) 252-6930,http://dearbornes.seattleschools.org/,Dearborn Park Int'l
+81,47.53960839100006, -122.35865808299997,Sanislo,K - 5,Elementary,1812 SW Myrtle St.,Seattle,98106,(206) 252-8380,http://sanisloes.seattleschools.org/,Sanislo
+82,47.52374294900005, -122.27200912199999,South Shore K-8,K - 8,Option Elementary,4800 S Henderson St,Seattle,98118,(206) 252-7600,http://southshorek8.seattleschools.org/,South Shore
+83,47.70762860900004, -122.29453073299999,Nathan Hale,9 - 12,High School,10750 30th Ave. NE,Seattle,98125,(206) 252-3680,http://halehs.seattleschools.org/,Nathan Hale
+84,47.55817902600006, -122.28711551799995,Interagency at Columbia,6 - 12,Service School,3528 S Ferdinand St.,Seattle,98118,(206)743-3930,http://interagency.seattleschools.org/,Columbia
+85,47.642286858000034, -122.32417847199997,TOPS K-8,K - 8,Option Elementary,2500  Franklin Ave. E,Seattle,98102,(206) 252-3510,http://www.topsk8.org/,Seward
+86,47.67184194400005, -122.29220552399994,Bryant,K - 5,Elementary,3311 NE 60th St.,Seattle,98115,(206) 252-5200,http://bryantes.seattleschools.org/,Bryant
+87,47.714867164000054, -122.32958504599998,Northgate,K - 5,Elementary,11725 1st Ave. NE,Seattle,98125,(206) 252-4180,http://northgatees.seattleschools.org/,Northgate
+88,47.656712406000054, -122.39047452099999,Lawton,K - 5,Elementary,4000 27th Ave. W.,Seattle,98199,(206) 252-2130,http://lawtonelementary.org/,Lawton
+89,47.63407775100006, -122.28483179199998,McGilvra,K - 5,Elementary,1617 38th Ave. E.,Seattle,98112,(206) 252-3160,http://mcgilvraes.seattleschools.org/,McGilvra
+90,47.59095855000004, -122.29984633199996,Thurgood Marshall,K - 5,Elementary,2401 S Irving St.,Seattle,98144,(206) 252-2800,http://marshalles.seattleschools.org/,Thurgood Marshall
+91,47.659961777000035, -122.33962244899999,Cascadia,K - 5,Option Elementary,4400 Interlake Ave N,Seattle,98103,(206) 252-5914,http://applincolnes.seattleschools.org/,Lincoln
+92,47.659961777000035, -122.33962244899999,Licton Springs K-8 (interim at Lincoln),K - 8,Elementary,4400 Interlake Ave. N,Seattle,98103,(206)252-6000,http://lictonspringsk8.seattleschools.org/,Lincoln
+93,47.545757311000045, -122.26853424899997,Graham Hill,K - 5,Elementary,5149 S Graham St.,Seattle,98118,(206) 252-7140,http://grahamhilles.seattleschools.org/,Graham Hill
+94,47.68252010600003, -122.29498266199994,Eckstein,6 - 8,Middle School,3003 NE 75th St.,Seattle,98115,(206) 252-5010,http://ecksteinms.seattleschools.org/,Eckstein
+95,47.56360478600004, -122.35799712399995,Pathfinder K-8,K - 8,Option Elementary,1901 SW Genesee St.,Seattle,98106,(206) 252-9710,http://pathfinderk8.seattleschools.org/,Pathfinder
+96,47.53809082600003, -122.29591302899996,Early Learning Center,,Service School,7201 Beacon Ave. S,Seattle,98108,,,Early Learning Center
+97,47.68068710700004, -122.27533216899997,View Ridge,K - 5,Elementary,7047 50th Ave. NE,Seattle,98115,(206) 252-5600,http://viewridgees.seattleschools.org/,View Ridge
+98,47.59795568700008, -122.30414977399994,Washington,6 - 8,Middle School,2101 S Jackson St.,Seattle,98144,(206) 252-2600,http://washingtonms.seattleschools.org/,Washington
+99,47.694974512000044, -122.38703549999997,North Beach,K - 5,Elementary,9018 24th Ave. NW,Seattle,98117,(206) 252-1510,http://northbeaches.seattleschools.org/,North Beach
+100,47.62442342500003, -122.31837891599997,Lowell,K - 5,Elementary,1058 E Mercer St.,Seattle,98102,(206) 252-3020,http://lowelles.seattleschools.org/,Lowell
+101,47.68358982400008, -122.37307537899994,Whittier,K - 5,Elementary,1320 NW 75th St.,Seattle,98117,(206) 252-1650,http://whittieres.seattleschools.org/,Whittier
+102,47.69053804600003, -122.29705381699995,Wedgwood,K - 5,Elementary,2720 NE 85th St.,Seattle,98115,(206) 252-5670,http://wedgwoodes.seattleschools.org/,Wedgwood
+103,47.698448545000076, -122.30747272299999,Sacajawea,K - 5,Elementary,9501 20th Ave. NE,Seattle,98115,(206) 252-5550,http://sacajaweaes.seattleschools.org/,Sacajawea
+104,47.72581399900008, -122.28753061799995,Olympic Hills (interim at Cedar Park),K - 5,Elementary,13224 37th Ave. NE,Seattle,98125,(206) 252-4300,http://olympichillses.seattleschools.org/,Cedar Park
+105,47.52498919000004, -122.27465565499995,Dunlap,K - 5,Elementary,4525 S Cloverdale St.,Seattle,98118,(206) 252-7000,http://dunlapes.seattleschools.org/,Dunlap
+106,47.67630161000005, -122.32849785799999,Green Lake,K - 5,Elementary,2400 N 65th St.,Seattle,98103,(206) 252-5320,http://www.greenlakedragons.org/,Green Lake
+107,47.71898529900005, -122.29951523699998,,,Closed_Leased,2611 NE 125th St.,Seattle,98125,,,Lake City
+108,47.56051216700007, -122.38436270899996,,,Closed_Leased_Land,4720 42nd Ave. SW,Seattle,98116,,,Jefferson
+109,47.67724814300004, -122.32231534799996,Loyal Heights (interim at John Marshall),K - 5,Elementary,520 NE Ravenna Blvd.,Seattle,98115,(206)252-3580,http://loyalheightses.seattleschools.org/,John Marshall
+110,47.60842417600003, -122.30092570999994,Nova at Mann,9 - 12,Option High School,2410 E Cherry St.,Seattle,98122,(206) 252-3500,http://novahs.seattleschools.org/,Mann
+111,47.56549256900007, -122.39688853999996,Genesee Hill,K - 5,Elementary,5012 SW Genesee St.,Seattle,98116,,,Genesee Hill
+112,47.632022748000054, -122.35326521799999,,,Non Standard,1431 2nd Ave N,Seattle,98109,,,Queen Anne Gym
+113,47.63796374100008, -122.34896919299996,Queen Anne,K - 5,Option Elementary,411 Boston St.,Seattle,98109,(206) 252-2480,http://queenannees.seattleschools.org/,Queen Anne
+114,47.60541951400006, -122.30190468799998,Garfield,9 - 12,High School,400 23rd Ave.,Seattle,98122,(206) 252-2270,http://garfieldhs.seattleschools.org/,Garfield
+115,47.65708003100008, -122.33802753599997,Hamilton Int'l,6 - 8,Middle School,1610 N 41st St.,Seattle,98103,(206) 252-5810,http://hamiltonms.seattleschools.org/,Hamilton Int'l
+116,47.53165395900004, -122.36604153099995,Denny Int'l,6 - 8,Middle School,2601 SW Kenyon St.,Seattle,98126,(206) 252-9000,http://dennyms.seattleschools.org/,Denny Int'l
