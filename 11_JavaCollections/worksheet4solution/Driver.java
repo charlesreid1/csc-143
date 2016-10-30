@@ -7,6 +7,10 @@ import java.io.*;
  * This code parses data about Seattle public schools 
  * provided by the City of Seattle to filter and sort
  * the data using Collections objects.
+ *
+ * Dr. Reid
+ * CSC 143
+ * Worksheet 4
  */
 public class Driver {
 
