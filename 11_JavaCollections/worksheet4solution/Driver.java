@@ -34,7 +34,6 @@ public class Driver {
         for( String ph : reverse_phone.keySet() ) {
             String sch = reverse_phone.get(ph);
             if(!ph.isEmpty()) {
-                //System.out.println(sch + "\t\t\t" + ph); 
                 System.out.printf("%23s    %20s \n",sch,ph);
             }
         }
