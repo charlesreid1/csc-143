@@ -1,4 +1,5 @@
 // This file is from Reges & Stepp's textbook, "Building Java Programs" (3rd Edition).
+// It is the end-of-chapter case study for Chapter 6 (File I/O).
 //
 // This program uses a file of zip code information to allow a user
 // to find zip codes within a certain distance of another zip code.
