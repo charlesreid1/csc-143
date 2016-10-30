@@ -2,12 +2,11 @@
 import java.util.*; 
 
 /**
- * Prisoners Dilemma Game: Starter Class
- * Worksheet 3
+ * Prisoners Dilemma Game: Solution
  *
- * Use this code to help you get started 
- * implementing the Prisoners' Dilemma Game
- * for worksheet 3.
+ * Dr. Reid
+ * CSC 143
+ * Worksheet 3
  */
 public class PrisonersDilemmaGameSolution {
 
