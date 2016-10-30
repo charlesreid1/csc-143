@@ -1,6 +1,6 @@
 # Worksheet 4: Seattle Public Schools Data
 
-This worksheet 4 code provides a solution for Worksheet 4.
+This code provides a solution for Worksheet 4.
 
 ## Code Written For This Assignment
 
