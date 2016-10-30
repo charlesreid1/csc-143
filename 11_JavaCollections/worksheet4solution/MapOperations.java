@@ -3,6 +3,9 @@ import java.util.*;
 /** MapOperations:
  *
  * This class defines several static methods for reversing maps.
+ * Dr. Reid
+ * CSC 143
+ * Worksheet 4
  */
 public class MapOperations { 
 
