@@ -27,5 +27,9 @@ case study, Zip Code Lookup. This class defines a static method to
 compute the distance between two points given their longitude and latitude
 values. 
 
-The source of this code is Reges & Stepp, "Building Java Programs" (3rd Edition), Chapter 6.
+This class's source code is available in the textbook by Reges & Stepp, 
+"Building Java Programs" (3rd Edition), Chapter 6. It is also 
+available on the authors' web page.
+
+This code calls the ZipLookup class directly, without requiring any modification.
 
