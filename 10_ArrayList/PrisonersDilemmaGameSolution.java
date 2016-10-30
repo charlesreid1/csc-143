@@ -89,18 +89,20 @@ public class PrisonersDilemmaGameSolution {
     public void gameSummary()  {
         int rpSum = cSum(this.rpTime); 
         int psSum = cSum(this.psTime);
+
         String rpStr = "The Rainbow Pony Gang";
         String psStr = "The Plaid Socks Gang";
-        
+
         System.out.printf("%s: %d years      %s: %d years \n", rpStr, rpSum, psStr, psSum);
+        
         String gameState;
         String winner;
-
         if(isRunning){
             gameState = " is in the lead ";
         } else {
             gameState = " won ";
         }
+        
         if( psSum < rpSum ) {
             winner = psStr;
         } else if( rpSum < psSum ) {
