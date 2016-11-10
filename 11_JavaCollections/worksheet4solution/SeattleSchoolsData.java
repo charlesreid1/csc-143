@@ -8,6 +8,10 @@ import java.io.*;
  * and the file containing public school data. 
  * This file owns the file parsing process.
  * If the file format changes, this is the class you change.
+ *
+ * Dr. Reid
+ * CSC 143
+ * Worksheet 4
  */
 public class SeattleSchoolsData {
 

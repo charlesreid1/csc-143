@@ -5,6 +5,10 @@
  * The only information we are using is name, type, address, and phone number.
  * If we want to store more information, we can add more fields.
  * If we want to adjust how the file is parsed, edit SeattleSchoolsData class.
+ *
+ * Dr. Reid
+ * CSC 143
+ * Worksheet 4
  */
 public class School {
     private double[] latlong; // latitude, longitude 
@@ -72,10 +76,6 @@ public class School {
         // YOU NEED TO CITE THE PUBLICATION
         // OR LINK, AND INCLUDE THE ORIGINAL
         // AUTHOR'S NAME.
-        //
-        // SIMPLY COPYING AND PASTING SOMEONE 
-        // ELSE'S CODE AND CLAIMING IT IS YOUR OWN
-        // BY PUTTING YOUR NAME ON IT IS PLAGIARISM.
         //
         return ZipLookup.distance(this_coords[0],this_coords[1],
                                   other_coords[0],other_coords[1]);

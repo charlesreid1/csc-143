@@ -7,6 +7,10 @@ import java.io.*;
  * This code parses data about Seattle public schools 
  * provided by the City of Seattle to filter and sort
  * the data using Collections objects.
+ *
+ * Dr. Reid
+ * CSC 143
+ * Worksheet 4
  */
 public class Driver {
 
@@ -30,7 +34,6 @@ public class Driver {
         for( String ph : reverse_phone.keySet() ) {
             String sch = reverse_phone.get(ph);
             if(!ph.isEmpty()) {
-                //System.out.println(sch + "\t\t\t" + ph); 
                 System.out.printf("%23s    %20s \n",sch,ph);
             }
         }

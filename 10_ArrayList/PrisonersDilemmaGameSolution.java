@@ -2,12 +2,11 @@
 import java.util.*; 
 
 /**
- * Prisoners Dilemma Game: Starter Class
- * Worksheet 3
+ * Prisoners Dilemma Game: Solution
  *
- * Use this code to help you get started 
- * implementing the Prisoners' Dilemma Game
- * for worksheet 3.
+ * Dr. Reid
+ * CSC 143
+ * Worksheet 3
  */
 public class PrisonersDilemmaGameSolution {
 
@@ -90,18 +89,20 @@ public class PrisonersDilemmaGameSolution {
     public void gameSummary()  {
         int rpSum = cSum(this.rpTime); 
         int psSum = cSum(this.psTime);
+
         String rpStr = "The Rainbow Pony Gang";
         String psStr = "The Plaid Socks Gang";
-        
+
         System.out.printf("%s: %d years      %s: %d years \n", rpStr, rpSum, psStr, psSum);
+        
         String gameState;
         String winner;
-
         if(isRunning){
             gameState = " is in the lead ";
         } else {
             gameState = " won ";
         }
+        
         if( psSum < rpSum ) {
             winner = psStr;
         } else if( rpSum < psSum ) {
