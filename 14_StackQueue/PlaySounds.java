@@ -8,7 +8,6 @@ public class PlaySounds {
     public static void main(String[] args) {
 
         Random r = new Random();
-        // repeat as long as there are more integers to read in
         while (true) { 
 
             // read in the pitch, where 0 = Concert A (A4)
