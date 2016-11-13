@@ -16,3 +16,5 @@ TriangleWave.java - generates and plays a triangle wave.
 OutOfPhase.java - generates three frequencies that are slightly out of phase,
 producing an interesting auditory effect.
 
+Distortion.java - generates two square waves and adds some noise.
+
