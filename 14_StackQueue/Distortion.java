@@ -22,10 +22,12 @@ public class Distortion {
             double[] a = new double[N+1];
 
             for (int i = 0; i <= N; i++) {
-                a[i]  = Math.sin(2 * Math.PI * i * hz  / StdAudio.SAMPLE_RATE);
+                // Add two square waves at different frequencies
+                a[i]  =  Math.signum( Math.sin(2 * Math.PI * i * hz  / StdAudio.SAMPLE_RATE) );
+                a[i]  +=  Math.signum( Math.sin(2 * Math.PI * i * (hz/15.0)  / StdAudio.SAMPLE_RATE) );
 
-                a[i] += Math.random() * ((double)(N-i))/N;
-
+                // Add noise
+                a[i]  += Math.random();
             }
 
             // play it using standard audio
