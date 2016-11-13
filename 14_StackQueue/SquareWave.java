@@ -16,11 +16,14 @@ public class SquareWave {
             // read in duration in seconds
             double duration = 2.0;
 
-            // build sine wave with desired frequency
+            // build wave with desired frequency
             double hz = 440 * Math.pow(2, pitch / 12.0);
             int N = (int) (StdAudio.SAMPLE_RATE * duration);
             double[] a = new double[N+1];
+
+            // Now populate the array with square wave samples
             for (int i = 0; i <= N; i++) {
+                // signum takes the sign of the function and turns it into -1, 0, or 1
                 a[i] = Math.signum( Math.sin(2 * Math.PI * i * hz / StdAudio.SAMPLE_RATE) );
             }
 

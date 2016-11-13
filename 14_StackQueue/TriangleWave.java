@@ -16,11 +16,16 @@ public class TriangleWave {
             // read in duration in seconds
             double duration = 2.0;
 
-            // build sine wave with desired frequency
+            // build wave with desired frequency
             double hz = 440 * Math.pow(2, pitch / 12.0);
             int N = (int) (StdAudio.SAMPLE_RATE * duration);
             double[] a = new double[N+1];
+
+            // Populate the array with triangle wave samples
             for (int i = 0; i <= N; i++) {
+                // asin(sin()) creates a linear function 
+                // slope is +1 when sin is increasing,
+                // slope is -1 when sin is decreasing
                 a[i] = Math.asin(Math.sin( 2 * Math.PI*i * hz / StdAudio.SAMPLE_RATE ));
             }
 
