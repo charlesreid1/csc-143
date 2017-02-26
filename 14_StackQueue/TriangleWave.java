@@ -14,7 +14,7 @@ public class TriangleWave {
             int pitch = r.nextInt(8); 
 
             // read in duration in seconds
-            double duration = 2.0;
+            double duration = 0.1;
 
             // build wave with desired frequency
             double hz = 440 * Math.pow(2, pitch / 12.0);
